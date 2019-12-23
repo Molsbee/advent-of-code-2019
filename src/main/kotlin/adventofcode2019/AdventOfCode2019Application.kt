@@ -4,6 +4,7 @@ import adventofcode2019.day1.Module
 import adventofcode2019.day1.calculateTotalFuleCost
 import adventofcode2019.day2.IntCodeComputer
 import adventofcode2019.day3.Wire
+import adventofcode2019.day4.generatePossiblePassword
 
 fun main(args: Array<String>) {
     // Day 1
@@ -17,6 +18,8 @@ fun main(args: Array<String>) {
     // Day 3
     val day3Input = readInputFile(3)
     println("Day 3: ${Wire(day3Input.lines()[0]).findMinimumDistance(Wire(day3Input.lines()[1]))}")
+
+    println("Day 4: ${generatePossiblePassword(382345, 843167).size}")
 }
 
 fun readInputFile(day: Int): String {
