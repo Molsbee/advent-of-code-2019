@@ -1,11 +1,10 @@
-package adventofcode2019.day2
+package adventofcode2019
 
-import adventofcode2019.IntCodeComputer
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.DynamicTest
 import org.junit.jupiter.api.TestFactory
 
-class IntCodeComputerTest {
+class Day2Test {
 
     private val testData = listOf(
             "1,0,0,0,99" to "2,0,0,0,99",

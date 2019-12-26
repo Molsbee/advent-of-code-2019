@@ -1,10 +1,10 @@
-package adventofcode2019.day3
+package adventofcode2019
 
 import adventofcode2019.Wire
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 
-class WireTest {
+class Day3Test {
 
     @Test
     fun scenario1() {
