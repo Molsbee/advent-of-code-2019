@@ -1,5 +1,6 @@
 package adventofcode2019.day3
 
+import adventofcode2019.Wire
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 

@@ -1,9 +1,9 @@
-package adventofcode2019.day2
+package adventofcode2019
 
 class OpCodeException(message: String): Exception(message)
 
-class IntCodeComputer(var program: String) {
-    var intCodes = program.split(",").map { it.toInt() }.toMutableList()
+class IntCodeComputer(program: String) {
+    private var intCodes = program.split(",").map { it.toInt() }.toMutableList()
 
     fun run(startingPosition: Int = 0): String {
         when (val opCode = intCodes[startingPosition]) {

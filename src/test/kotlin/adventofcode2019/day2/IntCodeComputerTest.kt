@@ -1,5 +1,6 @@
 package adventofcode2019.day2
 
+import adventofcode2019.IntCodeComputer
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.DynamicTest
 import org.junit.jupiter.api.TestFactory

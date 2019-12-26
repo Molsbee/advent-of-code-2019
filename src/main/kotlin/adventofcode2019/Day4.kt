@@ -1,4 +1,4 @@
-package adventofcode2019.day4
+package adventofcode2019
 
 fun generatePossiblePassword(start: Int, end: Int): List<Int> {
     val possiblePasswords = mutableListOf<Int>()

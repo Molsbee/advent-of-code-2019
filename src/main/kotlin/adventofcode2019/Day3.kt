@@ -1,4 +1,4 @@
-package adventofcode2019.day3
+package adventofcode2019
 
 import java.lang.RuntimeException
 import kotlin.math.abs
@@ -9,7 +9,7 @@ data class Position(val x: Int, val y: Int) {
     }
 }
 
-class Wire(private val input: String) {
+class Wire(input: String) {
     private val startPosition = Position(0, 0)
     var positions = mutableListOf<Position>()
 
